@@ -10,3 +10,47 @@ node_modules
 .output
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+tmp
+vscode
+.vscode
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test
+
+# IDE related
+.idea
+
+# Test coverage
+coverage
+*.lcov
+
+# Optional eslint cache
+.eslintcache
+
+dist
+test-results/
+/packages/create-svelte/template/CHANGELOG.md
+/packages/package/test/**/package
+/documentation/types.js
+.vercel_build_output
+.svelte-kit
+.cloudflare
+.pnpm-debug.log
+.netlify
+.turbo
+.vercel
+.test-tmp
+symlink-from
+.idea/
+
+
+# yarn v2
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+
+# Optional npm cache directory
+.npm
