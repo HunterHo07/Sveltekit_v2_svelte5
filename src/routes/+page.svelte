@@ -1,7 +1,8 @@
 <script>
-	import Counter from './Counter.svelte';
-	import welcome from '$lib/images/svelte-welcome.webp';
 	import welcome_fallback from '$lib/images/svelte-welcome.png';
+	import welcome from '$lib/images/svelte-welcome.webp';
+	import { Button } from '$lib/shadcn/ui/button';
+	import Counter from './Counter.svelte';
 </script>
 
 <svelte:head>
@@ -17,7 +18,7 @@
 				<img src={welcome_fallback} alt="Welcome" />
 			</picture>
 		</span>
-
+		<Button>Click me!!!!!!!!!</Button>
 		to your new<br />SvelteKit app
 	</h1>
 

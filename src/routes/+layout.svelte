@@ -1,4 +1,8 @@
-
+<script>
+	import '../app.css';
+	import Header from './Header.svelte';
+	import './styles.css';
+</script>
 
 <div class="app">
 	<Header></Header>
@@ -12,10 +16,9 @@
 	</footer>
 </div>
 
+<slot></slot>
 
-<slot></slot><script>import "../app.css";
-import Header from './Header.svelte';
-import './styles.css';</script><style>
+<style>
 	.app {
 		display: flex;
 		flex-direction: column;
