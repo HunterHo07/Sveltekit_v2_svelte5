@@ -13,6 +13,7 @@ vite.config.ts.timestamp-*
 tmp
 vscode
 .vscode
+*.code-workspace
 
 # Stores VSCode versions used for testing VSCode extensions
 .vscode-test
