@@ -1,5 +1,5 @@
+# docker-compose down --remove-orphans --rmi 'all'
 # docker-compose up --build
-# docker-compose up
 # docker-compose down
 
 # Use a specific version of node to avoid unexpected changes
@@ -20,10 +20,11 @@ COPY . .
 # Build the application
 RUN npm run build
 
+
 # Prune dev dependencies and clean npm cache
-RUN npm prune --production
-RUN npm ci --omit=dev
-RUN npm cache clean --force
+RUN npm prune --production --force
+# RUN npm ci --omit=dev
+RUN npm cache clean --force --legacy-peer-deps
 
 # Stage 2: Prepare the production image
 FROM node:20-alpine
@@ -32,6 +33,7 @@ FROM node:20-alpine
 WORKDIR /app
 
 # Create and use a non-root user for security reasons
+RUN rm -rf src/ static/ emailTemplates/ docker-compose.yml Dockerfile .git .gitignore .env .env.example .eslintignore .eslintrc.js .prettierrc .prettierrc.js .editorconfig .nvmrc .vscode .github
 RUN addgroup -S sveltegroup && adduser -S svelteuser -G sveltegroup
 USER svelteuser
 
@@ -39,6 +41,11 @@ USER svelteuser
 COPY --from=builder /app/build ./build
 COPY --from=builder /app/package.json ./package.json
 COPY --from=builder /app/node_modules ./node_modules
+
+# Copy built assets and dependencies from the builder stage
+# COPY --from=builder /staging/package.json /staging/pnpm-lock.yaml  /app/
+# COPY --from=builder /staging/node_modules /app/node_modules
+# COPY --from=builder /staging/build /app/build
 
 # Expose the application port
 EXPOSE 3000
