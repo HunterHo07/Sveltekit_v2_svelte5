@@ -1,4 +1,4 @@
-import adapter from '@sveltejs/adapter-auto';
+import adapter from '@sveltejs/adapter-node';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 
 /** @type {import('@sveltejs/kit').Config} */
@@ -14,9 +14,9 @@ const config = {
 		adapter: adapter()
 	},
 	vitePlugin: {
-			inspector: {
+			inspector: { // ctrl + shift / cmd + shift
 				toggleKeyCombo: 'control-shift',
-				holdMode: true,
+				holdMode: false, // true or false
 				showToggleButton: 'always',
 				toggleButtonPos: 'top-right',
 			}
