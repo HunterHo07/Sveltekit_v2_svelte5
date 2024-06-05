@@ -17,6 +17,9 @@ export default [
 				...globals.browser,
 				...globals.node
 			}
+		},
+		rules: {
+			'no-unused-vars': 'error'
 		}
 	},
 	{
@@ -28,6 +31,6 @@ export default [
 		}
 	},
 	{
-		ignores: ['build/', '.svelte-kit/', 'dist/', 'node_modules/', 'static/']
+		ignores: ['build/', '.svelte-kit/', 'dist/', 'node before_modules/', 'static/']
 	}
 ];

@@ -3,6 +3,7 @@
 	import welcome from '$lib/images/svelte-welcome.webp';
 	import { Button } from '$lib/shadcn/ui/button';
 	import Counter from './Counter.svelte';
+	// let ehhsl = '';
 </script>
 
 <svelte:head>
@@ -12,12 +13,16 @@
 
 <section>
 	<h1>
-		<span class="            welcome">
+		<span class="welcome"
+			>\
+
 			<picture>
 				<source srcset={welcome} type="image/webp" />
+
 				<img src={welcome_fallback} alt="Welcome" />
 			</picture>
 		</span>
+
 		<Button>Click me!!!!!!!!!</Button>
 		to your new<br />SvelteKit app
 	</h1>
