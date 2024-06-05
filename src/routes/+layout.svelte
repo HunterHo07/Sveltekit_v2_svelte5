@@ -1,4 +1,5 @@
 <script>
+	// import { SvelteUIProvider } from '@svelteuidev/core';
 	import '../app.css';
 	import Header from './Header.svelte';
 	import './styles.css';
@@ -16,7 +17,10 @@
 	</footer>
 </div>
 
-<slot></slot>
+<!-- <SvelteUIProvider> -->
+<slot />
+
+<!-- </SvelteUIProvider> -->
 
 <style>
 	.app {
