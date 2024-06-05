@@ -25,6 +25,7 @@ RUN npm run build
 RUN npm prune --production --force
 # RUN npm ci --omit=dev
 RUN npm cache clean --force --legacy-peer-deps
+# RUN npm audit fix --force
 
 # Stage 2: Prepare the production image
 FROM node:20-alpine

@@ -1,68 +1,58 @@
+# Ignore Docker files
 Dockerfile
 .dockerignore
+
+# Ignore Git files
 .git
 .gitignore
 .gitattributes
+
+# Ignore documentation and configuration files
 README.md
 .npmrc
 .prettierrc
 .eslintrc.cjs
 .graphqlrc
 .editorconfig
+
+# Ignore development environment files
 .svelte-kit
 .vscode
-node_modules
-build
-package
-**/.env
-.npm
+.idea
 
-.DS_Store
+# Ignore dependencies
+node_modules
+
+# Ignore build files
+build
+dist
+
+# Ignore environment files
+**/.env
 !.env.example
+
+# Ignore cache and log files
+.npm
+.DS_Store
+.yarn/cache
+.pnpm-debug.log
+.eslintcache
+
+# Ignore test files
+coverage
+*.lcov
+test-results/
+.vscode-test
+
+# Ignore other unnecessary files
 .vercel
 .output
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
-
-
-.DS_Store
-node_modules
-/build
-/.svelte-kit
-/package
-.env
-.env.*
-!.env.example
-
-.output
-vite.config.js.timestamp-*
-vite.config.ts.timestamp-*
-tmp
-vscode
-.vscode
-*.code-workspace
-.vscode-test
-.idea
-coverage
-*.lcov
-.eslintcache
-
-dist
-test-results/
-/packages/create-svelte/template/CHANGELOG.md
-/packages/package/test/**/package
-/documentation/types.js
-.vercel_build_output
-.cloudflare
-.pnpm-debug.log
-.netlify
-.turbo
-
-.test-tmp
+.tmp
 symlink-from
-.idea/
-.yarn/cache
-.yarn/unplugged
-.yarn/build-state.yml
-.yarn/install-state.gz
-.pnp.*
+.turbo
+.netlify
+.cloudflare
+.vercel_build_output
+.lintstagedrc

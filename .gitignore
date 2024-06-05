@@ -55,3 +55,4 @@ symlink-from
 
 # Optional npm cache directory
 .npm
+*storybook.log
