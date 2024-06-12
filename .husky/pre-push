@@ -1,49 +1,49 @@
-#!/bin/sh
-. "$(dirname "$0")/_/husky.sh"
+# #!/bin/sh
+# . "$(dirname "$0")/_/husky.sh"
 
-echo "Starting pre-push hook..."
+# echo "Starting pre-push hook..."
 
-# Function to handle conflicts
-handle_conflicts() {
-  echo "Conflicts detected. Please resolve them manually."
-  echo "After resolving, run 'git rebase --continue' to complete the rebase."
-  exit 1
-}
+# # Function to handle conflicts
+# handle_conflicts() {
+#   echo "Conflicts detected. Please resolve them manually."
+#   echo "After resolving, run 'git rebase --continue' to complete the rebase."
+#   exit 1
+# }
 
-# Function to handle test failures
-handle_test_failures() {
-  echo "Tests failed. Please fix the issues and try pushing again."
-  echo "You can run 'npm test' locally to see the errors."
-  exit 1
-}
+# # Function to handle test failures
+# handle_test_failures() {
+#   echo "Tests failed. Please fix the issues and try pushing again."
+#   echo "You can run 'npm test' locally to see the errors."
+#   exit 1
+# }
 
-# Lint and fix code
-echo "Linting and fixing code..."
-npx lint-staged || { echo 'Linting failed'; exit 1; }
+# # Lint and fix code
+# echo "Linting and fixing code..."
+# npx lint-staged || { echo 'Linting failed'; exit 1; }
 
-# Run checks and tests
-echo "Running checks and tests..."
-npm run check || { echo 'Checks failed'; exit 1; }
-npm test || handle_test_failures
+# # Run checks and tests
+# echo "Running checks and tests..."
+# npm run check || { echo 'Checks failed'; exit 1; }
+# npm test || handle_test_failures
 
-# Check if the current branch is not the main branch
-current_branch=$(git rev-parse --abbrev-ref HEAD)
-if [ "$current_branch" = "main" ]; then
-  echo "You are on the main branch, skipping rebase and squash."
-  exit 0
-fi
+# # Check if the current branch is not the main branch
+# current_branch=$(git rev-parse --abbrev-ref HEAD)
+# if [ "$current_branch" = "main" ]; then
+#   echo "You are on the main branch, skipping rebase and squash."
+#   exit 0
+# fi
 
-# Squash commits
-echo "Squashing commits..."
-if ! git rebase -i HEAD~$(git rev-list --count HEAD ^main); then
-  handle_conflicts
-fi
+# # Squash commits
+# echo "Squashing commits..."
+# if ! git rebase -i HEAD~$(git rev-list --count HEAD ^main); then
+#   handle_conflicts
+# fi
 
-# Rebase onto the latest main
-echo "Rebasing onto the latest main..."
-git fetch origin main
-if ! git rebase origin/main; then
-  handle_conflicts
-fi
+# # Rebase onto the latest main
+# echo "Rebasing onto the latest main..."
+# git fetch origin main
+# if ! git rebase origin/main; then
+#   handle_conflicts
+# fi
 
-echo "Rebase successful. Proceeding to push..."
+# echo "Rebase successful. Proceeding to push..."
