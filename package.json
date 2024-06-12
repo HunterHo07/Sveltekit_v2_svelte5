@@ -64,6 +64,12 @@
 		"zod": "^3.23.8"
 	},
 	"type": "module",
+	"lint-staged": {
+		"*.{js,ts,svelte}": [
+			"eslint --fix",
+			"prettier --write"
+		]
+	},
 	"dependencies": {
 		"@supabase/supabase-js": "^2.43.4",
 		"bits-ui": "^0.21.10",

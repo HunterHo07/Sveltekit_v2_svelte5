@@ -17,6 +17,7 @@ npm create svelte@latest my-app
 ## Developing
 
 Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+npm i --force --legacy-peer-deps
 
 ```bash
 npm run dev
