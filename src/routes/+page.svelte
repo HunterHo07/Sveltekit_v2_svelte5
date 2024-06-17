@@ -1,14 +1,17 @@
 <script>
 	import welcome_fallback from '$lib/images/svelte-welcome.png';
 	import welcome from '$lib/images/svelte-welcome.webp';
-	import { Button } from '$lib/shadcn/ui/button';
 	import Counter from './Counter.svelte';
+
+	import { Separator } from '$lib/shadcn/ui/separator';
+	import { Button } from '$lib/shadcn/ui/button';
 
 	import * as Card from '$lib/shadcn/ui/card/index';
 	import * as Carousel from '$lib/shadcn/ui/carousel/index';
+
 	import Accordion from '$lib/components/Accordion/+page.svelte';
 	import Alert from '$lib/components/Alert/+page.svelte';
-	import { Separator } from '$lib/shadcn/ui/separator';
+	import AlertDialog from '$lib/components/AlertDialog/+page.svelte';
 </script>
 
 <svelte:head>
@@ -45,6 +48,11 @@
 <section>
 	<h2>Alert</h2>
 	<Alert />
+</section>
+
+<section>
+	<h2>Alert Dialog</h2>
+	<AlertDialog />
 </section>
 
 <section>
