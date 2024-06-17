@@ -4,7 +4,8 @@
 	import ChevronDown from 'lucide-svelte/icons/chevron-down';
 
 	type $$Props = AccordionPrimitive.TriggerProps;
-	// type $$Events = AccordionPrimitive.TriggerEvents;
+	// eslint-disable-next-line @typescript-eslint/no-unused-vars
+	type $$Events = AccordionPrimitive.TriggerEvents;
 
 	let className: $$Props['class'] = undefined;
 	export let level: AccordionPrimitive.HeaderProps['level'] = 3;

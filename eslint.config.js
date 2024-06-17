@@ -19,7 +19,8 @@ export default [
 			}
 		},
 		rules: {
-			'no-unused-vars': 'error'
+			'no-unused-vars': ['warn'],
+			'@typescript-eslint/no-unused-vars': ['warn']
 		}
 	},
 	{
@@ -31,6 +32,13 @@ export default [
 		}
 	},
 	{
-		ignores: ['build/', '.svelte-kit/', 'dist/', 'node before_modules/', 'static/']
+		ignores: [
+			'build/',
+			'.svelte-kit/',
+			'dist/',
+			'node_modules/',
+			'static/',
+			'src/lib/shadcn/'
+		]
 	}
 ];

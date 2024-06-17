@@ -9,6 +9,10 @@
 	export { className as class };
 </script>
 
-<AccordionPrimitive.Item {value} class={cn('border-b', className)} {...$$restProps}>
+<AccordionPrimitive.Item
+	{value}
+	class={cn('border-b', className)}
+	{...$$restProps}
+>
 	<slot />
 </AccordionPrimitive.Item>
