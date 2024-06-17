@@ -25,3 +25,4 @@ npm install --legacy-peer-deps
 - TailwindCSS
 - TypeScript
 - Zod
+- Docker
