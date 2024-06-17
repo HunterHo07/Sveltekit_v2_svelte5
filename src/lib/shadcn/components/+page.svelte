@@ -331,8 +331,6 @@
 		>Click Here</a
 	>
 	<Button />
-	<Button />
-	<Button />
 </section>
 <section>
 	<div class="text">
