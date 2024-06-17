@@ -11,7 +11,7 @@
 <Separator />
 
 <section>
-	<h2>Shadcn-Svelte Official Docs</h2>
+	<h2>Official Docs</h2>
 	<a target="_blank" href="https://www.shadcn-svelte.com/">Click Here</a>
 </section>
 
@@ -55,7 +55,6 @@
 		</div>
 	</div>
 	<div class="overlay"></div>
-
 	<a
 		target="_blank"
 		href="https://www.shadcn-svelte.com/docs/components/alert-dialog"
@@ -65,7 +64,29 @@
 </section>
 
 <section>
-	<h2>Alert</h2>
+	<div class="text">
+		<div class="wrapper">
+			<div id="A" class="letter">A</div>
+			<div class="shadow">A</div>
+		</div>
+		<div class="wrapper">
+			<div id="L" class="letter">L</div>
+			<div class="shadow">L</div>
+		</div>
+		<div class="wrapper">
+			<div id="E" class="letter">E</div>
+			<div class="shadow">E</div>
+		</div>
+		<div class="wrapper">
+			<div id="R" class="letter">R</div>
+			<div class="shadow">R</div>
+		</div>
+		<div class="wrapper">
+			<div id="T" class="letter">T</div>
+			<div class="shadow">T</div>
+		</div>
+	</div>
+	<div class="overlay"></div>
 	<a
 		target="_blank"
 		href="https://www.shadcn-svelte.com/docs/components/alert-dialog"
@@ -75,13 +96,127 @@
 </section>
 
 <section>
-	<h2>Alert Dialog</h2>
+	<div class="text">
+		<div class="wrapper">
+			<div id="A" class="letter">A</div>
+			<div class="shadow">A</div>
+		</div>
+		<div class="wrapper">
+			<div id="L" class="letter">L</div>
+			<div class="shadow">L</div>
+		</div>
+		<div class="wrapper">
+			<div id="E" class="letter">E</div>
+			<div class="shadow">E</div>
+		</div>
+		<div class="wrapper">
+			<div id="R" class="letter">R</div>
+			<div class="shadow">R</div>
+		</div>
+		<div class="wrapper">
+			<div id="T" class="letter">T</div>
+			<div class="shadow">T</div>
+		</div>
+		<div class="wrapper">
+			<div id="space" class="letter"></div>
+			<div class="shadow"></div>
+		</div>
+		<div class="wrapper">
+			<div id="D" class="letter">D</div>
+			<div class="shadow">D</div>
+		</div>
+		<div class="wrapper">
+			<div id="I" class="letter">I</div>
+			<div class="shadow">I</div>
+		</div>
+		<div class="wrapper">
+			<div id="A2" class="letter">A</div>
+			<div class="shadow">A</div>
+		</div>
+		<div class="wrapper">
+			<div id="L2" class="letter">L</div>
+			<div class="shadow">L</div>
+		</div>
+		<div class="wrapper">
+			<div id="O" class="letter">O</div>
+			<div class="shadow">O</div>
+		</div>
+		<div class="wrapper">
+			<div id="G" class="letter">G</div>
+			<div class="shadow">G</div>
+		</div>
+	</div>
+	<div class="overlay"></div>
 	<a
 		target="_blank"
 		href="https://www.shadcn-svelte.com/docs/components/alert-dialog"
 		>Click Here</a
 	>
 	<AlertDialog />
+</section>
+
+<section>
+	<div class="text">
+		<div class="wrapper">
+			<div id="A" class="letter">A</div>
+			<div class="shadow">A</div>
+		</div>
+		<div class="wrapper">
+			<div id="L" class="letter">L</div>
+			<div class="shadow">L</div>
+		</div>
+		<div class="wrapper">
+			<div id="E" class="letter">E</div>
+			<div class="shadow">E</div>
+		</div>
+		<div class="wrapper">
+			<div id="R" class="letter">R</div>
+			<div class="shadow">R</div>
+		</div>
+		<div class="wrapper">
+			<div id="T" class="letter">T</div>
+			<div class="shadow">T</div>
+		</div>
+	</div>
+	<div class="overlay"></div>
+	<a
+		target="_blank"
+		href="https://www.shadcn-svelte.com/docs/components/alert-dialog"
+		>Click Here</a
+	>
+	<Alert />
+</section>
+
+<section>
+	<div class="text">
+		<div class="wrapper">
+			<div id="A" class="letter">A</div>
+			<div class="shadow">A</div>
+		</div>
+		<div class="wrapper">
+			<div id="L" class="letter">L</div>
+			<div class="shadow">L</div>
+		</div>
+		<div class="wrapper">
+			<div id="E" class="letter">E</div>
+			<div class="shadow">E</div>
+		</div>
+		<div class="wrapper">
+			<div id="R" class="letter">R</div>
+			<div class="shadow">R</div>
+		</div>
+		<div class="wrapper">
+			<div id="T" class="letter">T</div>
+			<div class="shadow">T</div>
+		</div>
+	</div>
+	<div class="overlay"></div>
+	<a
+		target="_blank"
+		href="https://www.shadcn-svelte.com/docs/components/alert-dialog"
+		>Click Here</a
+	>
+	<Alert />
 </section>
 
 <style>
@@ -101,35 +236,9 @@
 		background-size: 200% 200%;
 		color: transparent;
 		background-clip: text;
+		padding-top: 3vw;
 		-webkit-background-clip: text;
 		animation: gradient 3s ease infinite;
-	}
-
-	@keyframes rise {
-		to {
-			text-shadow:
-				0em 0.01em #ff5,
-				0em 0.02em #ff5,
-				0em 0.02em 0.03em #ff5,
-				-0.01em 0.01em #333,
-				-0.02em 0.02em #333,
-				-0.03em 0.03em #333,
-				-0.04em 0.04em #333,
-				-0.01em -0.01em 0.03em #000,
-				-0.02em -0.02em 0.03em #000,
-				-0.03em -0.03em 0.03em #000;
-			transform: translateY(-0.025em) translateX(0.04em);
-		}
-	}
-
-	h2 {
-		/* font-size: 2em;
-		font-family: 'Arial', sans-serif;
-		font-weight: 500;
-		color: #28272b;
-		margin: auto;
-		text-shadow: -0.01em -0.01em 0.01em #000;
-		animation: rise 2s ease-in-out 0.5s forwards; */
 	}
 
 	@keyframes gradient {
@@ -144,8 +253,46 @@
 		}
 	}
 
+	h2 {
+		background-clip: text;
+		background-image: linear-gradient(
+			to right,
+			#09f1b8,
+			#00a2ff,
+			#ff00d2,
+			#fed90f
+		);
+		color: #000119;
+		font-size: 3vmin;
+		font-weight: 700;
+		letter-spacing: calc(1em / 8);
+		padding: calc(--stroke-width / 2);
+		-webkit-text-stroke-color: transparent;
+		-webkit-text-stroke-width: calc(1em / 16);
+		animation: gradient 5s infinite;
+	}
+
+	@keyframes colorchange {
+		0% {
+			color: #09f1b8;
+		}
+		25% {
+			color: #00a2ff;
+		}
+		50% {
+			color: #ff00d2;
+		}
+		75% {
+			color: #fed90f;
+		}
+		100% {
+			color: #09f1b8;
+		}
+	}
+
 	a {
-		z-index: 101;
+		z-index: 2;
+		padding: 1vw;
 	}
 
 	.overlay {
@@ -155,7 +302,7 @@
 		width: 100vw;
 		height: 3.5vw;
 		margin-top: -4vw;
-		z-index: 100;
+		z-index: 1;
 
 		background: rgb(255, 255, 255);
 		background: linear-gradient(
