@@ -10,16 +10,16 @@ LABEL Developers="Hunter Ho"
 WORKDIR /app
 # Copy package.json and package-lock.json
 COPY package*.json ./
+RUN rm -rf node_modules
+RUN rm -rf build
+# Copy the rest of the application code
+COPY . .
 
 # Install dependencies
 RUN npm ci --force --legacy-peer-deps
 
-# Copy the rest of the application code
-COPY . .
-
 # Build the application
 RUN npm run build
-
 
 # Prune dev dependencies and clean npm cache
 RUN npm prune --production --force
