@@ -7,6 +7,7 @@
 	import * as Card from '$lib/shadcn/ui/card/index';
 	import * as Carousel from '$lib/shadcn/ui/carousel/index';
 	import Accordion from '$lib/components/Accordion/+page.svelte';
+	import Alert from '$lib/components/Alert/+page.svelte';
 	import { Separator } from '$lib/shadcn/ui/separator';
 </script>
 
@@ -39,6 +40,11 @@
 <section>
 	<h2>Accordion</h2>
 	<Accordion />
+</section>
+
+<section>
+	<h2>Alert</h2>
+	<Alert />
 </section>
 
 <section>
