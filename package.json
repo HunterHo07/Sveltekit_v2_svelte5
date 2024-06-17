@@ -1,6 +1,6 @@
 {
 	"name": "sveltekit2-svelte5-boilerplate",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build",

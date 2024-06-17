@@ -9,6 +9,8 @@
 	import Breadcrumb from '$lib/shadcn/components/Breadcrumb/+page.svelte';
 	import Button from '$lib/shadcn/components/Button/+page.svelte';
 	import Calendar from '$lib/shadcn/components/Calendar/+page.svelte';
+	import Carousel from '$lib/shadcn/components/Carousel/+page.svelte';
+	// import Carousel from '$lib/shadcn/components/Carousel/+page.svelte';
 </script>
 
 <header>
@@ -376,38 +378,48 @@
 	>
 	<Calendar />
 </section>
+
 <section>
 	<div class="text">
 		<div class="wrapper">
+			<div id="C" class="letter">C</div>
+			<div class="shadow">C</div>
+		</div>
+		<div class="wrapper">
 			<div id="A" class="letter">A</div>
-			<div class="shadow">A</div>
-		</div>
-		<div class="wrapper">
-			<div id="V" class="letter">V</div>
-			<div class="shadow">V</div>
-		</div>
-		<div class="wrapper">
-			<div id="A2" class="letter">A</div>
-			<div class="shadow">A</div>
-		</div>
-		<div class="wrapper">
-			<div id="T" class="letter">T</div>
-			<div class="shadow">T</div>
-		</div>
-		<div class="wrapper">
-			<div id="A3" class="letter">A</div>
 			<div class="shadow">A</div>
 		</div>
 		<div class="wrapper">
 			<div id="R" class="letter">R</div>
 			<div class="shadow">R</div>
 		</div>
+		<div class="wrapper">
+			<div id="O" class="letter">O</div>
+			<div class="shadow">O</div>
+		</div>
+		<div class="wrapper">
+			<div id="U" class="letter">U</div>
+			<div class="shadow">U</div>
+		</div>
+		<div class="wrapper">
+			<div id="S" class="letter">S</div>
+			<div class="shadow">S</div>
+		</div>
+		<div class="wrapper">
+			<div id="E" class="letter">E</div>
+			<div class="shadow">E</div>
+		</div>
+		<div class="wrapper">
+			<div id="L" class="letter">L</div>
+			<div class="shadow">L</div>
+		</div>
 	</div>
 	<div class="overlay"></div>
-	<a target="_blank" href="https://www.shadcn-svelte.com/docs/components/avatar"
-		>Click Here</a
+	<a
+		target="_blank"
+		href="https://www.shadcn-svelte.com/docs/components/carousel">Click Here</a
 	>
-	<Avatar />
+	<Carousel />
 </section>
 <section>
 	<div class="text">
