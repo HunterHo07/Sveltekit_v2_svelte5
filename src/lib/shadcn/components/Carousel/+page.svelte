@@ -36,7 +36,8 @@
 	<Carousel.Previous />
 	<Carousel.Next />
 </Carousel.Root>
-
+<br />
+<br />
 <Carousel.Root
 	opts={{
 		align: 'start'
@@ -61,7 +62,8 @@
 	<Carousel.Previous />
 	<Carousel.Next />
 </Carousel.Root>
-
+<br />
+<br />
 <Carousel.Root class="w-full max-w-sm">
 	<Carousel.Content class="-ml-1">
 		{#each Array(5) as _, i (i)}
@@ -81,7 +83,9 @@
 	<Carousel.Previous />
 	<Carousel.Next />
 </Carousel.Root>
-
+<br />
+<br />
+<br />
 <Carousel.Root
 	opts={{
 		align: 'start'
@@ -105,7 +109,9 @@
 	<Carousel.Previous />
 	<Carousel.Next />
 </Carousel.Root>
-
+<br />
+<br />
+<br />
 <div>
 	<Carousel.Root bind:api class="w-full max-w-xs">
 		<Carousel.Content>
