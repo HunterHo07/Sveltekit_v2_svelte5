@@ -3,7 +3,10 @@
 	import welcome from '$lib/images/svelte-welcome.webp';
 	import { Button } from '$lib/shadcn/ui/button';
 	import Counter from './Counter.svelte';
-	// let ehhsl = '';
+	let ehhsl = '';
+
+	import * as Card from '$lib/shadcn/ui/card/index';
+	import * as Carousel from '$lib/shadcn/ui/carousel/index';
 </script>
 
 <svelte:head>
@@ -24,6 +27,26 @@
 		</span>
 
 		<Button>Click me!!!!!!!!!</Button>
+
+		<Carousel.Root class="w-full max-w-xs">
+			<Carousel.Content>
+				{#each Array(5) as _, i (i)}
+					<Carousel.Item>
+						<div class="p-1">
+							<Card.Root>
+								<Card.Content
+									class="flex aspect-square items-center justify-center p-6"
+								>
+									<span class="text-4xl font-semibold">{i + 1}</span>
+								</Card.Content>
+							</Card.Root>
+						</div>
+					</Carousel.Item>
+				{/each}
+			</Carousel.Content>
+			<Carousel.Previous />
+			<Carousel.Next />
+		</Carousel.Root>
 		to your new<br />SvelteKit app
 	</h1>
 

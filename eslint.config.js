@@ -19,8 +19,8 @@ export default [
 			}
 		},
 		rules: {
-			'no-unused-vars': ['warn'],
-			'@typescript-eslint/no-unused-vars': ['warn']
+			'no-unused-vars': ['warn', { varsIgnorePattern: '^_' }],
+			'@typescript-eslint/no-unused-vars': ['warn', { varsIgnorePattern: '^_' }]
 		}
 	},
 	{
@@ -38,7 +38,7 @@ export default [
 			'dist/',
 			'node_modules/',
 			'static/',
-			'src/lib/shadcn/'
+			'src/lib/shadcn/ui'
 		]
 	}
 ];
