@@ -30,8 +30,8 @@
 		align-items: center;
 		height: 100vh;
 	}
-	/* 
-	.borderSeparator {
+
+	/* .borderSeparator {
 		border: 1px solid red;
 	} */
 </style>
