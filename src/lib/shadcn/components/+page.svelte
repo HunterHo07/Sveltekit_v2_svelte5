@@ -5,6 +5,7 @@
 	import Separator from '$lib/shadcn/components/Separator/+page.svelte';
 	import AspectRatio from '$lib/shadcn/components/AspectRatio/+page.svelte';
 	import Avatar from '$lib/shadcn/components/Avatar/+page.svelte';
+	import Badge from '$lib/shadcn/components/Badge/+page.svelte';
 </script>
 
 <header>
@@ -217,35 +218,32 @@
 <section>
 	<div class="text">
 		<div class="wrapper">
+			<div id="B" class="letter">B</div>
+			<div class="shadow">B</div>
+		</div>
+		<div class="wrapper">
 			<div id="A" class="letter">A</div>
 			<div class="shadow">A</div>
 		</div>
 		<div class="wrapper">
-			<div id="V" class="letter">V</div>
-			<div class="shadow">V</div>
+			<div id="D" class="letter">D</div>
+			<div class="shadow">D</div>
 		</div>
 		<div class="wrapper">
-			<div id="A2" class="letter">A</div>
-			<div class="shadow">A</div>
+			<div id="G" class="letter">G</div>
+			<div class="shadow">G</div>
 		</div>
 		<div class="wrapper">
-			<div id="T" class="letter">T</div>
-			<div class="shadow">T</div>
-		</div>
-		<div class="wrapper">
-			<div id="A3" class="letter">A</div>
-			<div class="shadow">A</div>
-		</div>
-		<div class="wrapper">
-			<div id="R" class="letter">R</div>
-			<div class="shadow">R</div>
+			<div id="E" class="letter">E</div>
+			<div class="shadow">E</div>
 		</div>
 	</div>
 	<div class="overlay"></div>
-	<a target="_blank" href="https://www.shadcn-svelte.com/docs/components/avatar"
-		>Click Here</a
+	<a
+		target="_blank"
+		href="https://www.shadcn-svelte.com/docs/components/Badgeadge">Click Here</a
 	>
-	<Avatar />
+	<Badge />
 </section>
 <section>
 	<div class="text">
