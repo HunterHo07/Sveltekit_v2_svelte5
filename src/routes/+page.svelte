@@ -3,15 +3,12 @@
 	import welcome from '$lib/images/svelte-welcome.webp';
 	import Counter from './Counter.svelte';
 
-	import { Separator } from '$lib/shadcn/ui/separator';
 	import { Button } from '$lib/shadcn/ui/button';
 
 	import * as Card from '$lib/shadcn/ui/card/index';
 	import * as Carousel from '$lib/shadcn/ui/carousel/index';
 
-	import Accordion from '$lib/components/Accordion/+page.svelte';
-	import Alert from '$lib/components/Alert/+page.svelte';
-	import AlertDialog from '$lib/components/AlertDialog/+page.svelte';
+	import ShadcnComponents from '$lib/shadcn/components/+page.svelte';
 </script>
 
 <svelte:head>
@@ -28,60 +25,11 @@
 			</picture>
 		</span>
 	</h1>
-</section>
-
-<section>
 	<h2>Svelte Counter</h2>
 	<Counter />
 </section>
 
-<section>
-	<h2>Shadcn-Svelte Components</h2>
-	<Separator />
-</section>
-
-<section>
-	<h2>Accordion</h2>
-	<Accordion />
-</section>
-
-<section>
-	<h2>Alert</h2>
-	<Alert />
-</section>
-
-<section>
-	<h2>Alert Dialog</h2>
-	<AlertDialog />
-</section>
-
-<section>
-	<h2>Button</h2>
-	<Button>Click me!!!!!!!!!</Button>
-</section>
-
-<section>
-	<h2>Carousel</h2>
-	<Carousel.Root class="w-full max-w-xs">
-		<Carousel.Content>
-			{#each Array(5) as _, i (i)}
-				<Carousel.Item>
-					<div class="p-1">
-						<Card.Root>
-							<Card.Content
-								class="flex aspect-square items-center justify-center p-6"
-							>
-								<span class="text-4xl font-semibold">{i + 1}</span>
-							</Card.Content>
-						</Card.Root>
-					</div>
-				</Carousel.Item>
-			{/each}
-		</Carousel.Content>
-		<Carousel.Previous />
-		<Carousel.Next />
-	</Carousel.Root>
-</section>
+<ShadcnComponents />
 
 <style>
 	section {
@@ -91,7 +39,7 @@
 		align-items: center;
 		flex: 0.6;
 		padding: 5%;
-		border-bottom: 1px solid pink; /* Add this line */
+		border-bottom: 1px solid blueviolet; /* Add this line */
 	}
 
 	h1 {
