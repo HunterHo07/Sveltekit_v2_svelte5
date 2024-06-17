@@ -7,6 +7,7 @@
 	import Avatar from '$lib/shadcn/components/Avatar/+page.svelte';
 	import Badge from '$lib/shadcn/components/Badge/+page.svelte';
 	import Breadcrumb from '$lib/shadcn/components/Breadcrumb/+page.svelte';
+	import Button from '$lib/shadcn/components/Button/+page.svelte';
 </script>
 
 <header>
@@ -301,35 +302,35 @@
 <section>
 	<div class="text">
 		<div class="wrapper">
-			<div id="A" class="letter">A</div>
-			<div class="shadow">A</div>
+			<div id="B" class="letter">B</div>
+			<div class="shadow">B</div>
 		</div>
 		<div class="wrapper">
-			<div id="V" class="letter">V</div>
-			<div class="shadow">V</div>
+			<div id="U" class="letter">U</div>
+			<div class="shadow">U</div>
 		</div>
 		<div class="wrapper">
-			<div id="A2" class="letter">A</div>
-			<div class="shadow">A</div>
-		</div>
-		<div class="wrapper">
-			<div id="T" class="letter">T</div>
+			<div id="T1" class="letter">T</div>
 			<div class="shadow">T</div>
 		</div>
 		<div class="wrapper">
-			<div id="A3" class="letter">A</div>
-			<div class="shadow">A</div>
+			<div id="T2" class="letter">T</div>
+			<div class="shadow">T</div>
 		</div>
 		<div class="wrapper">
-			<div id="R" class="letter">R</div>
-			<div class="shadow">R</div>
+			<div id="O" class="letter">O</div>
+			<div class="shadow">O</div>
+		</div>
+		<div class="wrapper">
+			<div id="N" class="letter">N</div>
+			<div class="shadow">N</div>
 		</div>
 	</div>
 	<div class="overlay"></div>
-	<a target="_blank" href="https://www.shadcn-svelte.com/docs/components/avatar"
+	<a target="_blank" href="https://www.shadcn-svelte.com/docs/components/button"
 		>Click Here</a
 	>
-	<Avatar />
+	<Button />
 </section>
 <section>
 	<div class="text">
