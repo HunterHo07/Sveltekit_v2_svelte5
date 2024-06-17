@@ -240,7 +240,7 @@
 		</div>
 	</div>
 	<div class="overlay"></div>
-	<a target="_blank" href="https://www.shadcn-svelte.com/docs/components/Badge"
+	<a target="_blank" href="https://www.shadcn-svelte.com/docs/components/Badgse"
 		>Click Here</a
 	>
 	<Badge />
