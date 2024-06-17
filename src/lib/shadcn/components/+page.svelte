@@ -289,7 +289,6 @@
 			<div class="shadow">B</div>
 		</div>
 	</div>
-
 	<div class="overlay"></div>
 	<a
 		target="_blank"
