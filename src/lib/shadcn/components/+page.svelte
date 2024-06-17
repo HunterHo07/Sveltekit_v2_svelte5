@@ -12,6 +12,7 @@
 	import Carousel from '$lib/shadcn/components/Carousel/+page.svelte';
 	import Checkbox from '$lib/shadcn/components/Checkbox/+page.svelte';
 	import Collapsible from '$lib/shadcn/components/Collapsible/+page.svelte';
+	import Combobox from '$lib/shadcn/components/Combobox/+page.svelte';
 </script>
 
 <header>
@@ -525,35 +526,36 @@
 <section>
 	<div class="text">
 		<div class="wrapper">
-			<div id="A" class="letter">A</div>
-			<div class="shadow">A</div>
+			<div id="C" class="letter">C</div>
+			<div class="shadow">C</div>
 		</div>
 		<div class="wrapper">
-			<div id="V" class="letter">V</div>
-			<div class="shadow">V</div>
+			<div id="O" class="letter">O</div>
+			<div class="shadow">O</div>
 		</div>
 		<div class="wrapper">
-			<div id="A2" class="letter">A</div>
-			<div class="shadow">A</div>
+			<div id="M" class="letter">M</div>
+			<div class="shadow">M</div>
 		</div>
 		<div class="wrapper">
-			<div id="T" class="letter">T</div>
-			<div class="shadow">T</div>
+			<div id="B" class="letter">B</div>
+			<div class="shadow">B</div>
 		</div>
 		<div class="wrapper">
-			<div id="A3" class="letter">A</div>
-			<div class="shadow">A</div>
+			<div id="O2" class="letter">O</div>
+			<div class="shadow">O</div>
 		</div>
 		<div class="wrapper">
-			<div id="R" class="letter">R</div>
-			<div class="shadow">R</div>
+			<div id="X" class="letter">X</div>
+			<div class="shadow">X</div>
 		</div>
 	</div>
 	<div class="overlay"></div>
-	<a target="_blank" href="https://www.shadcn-svelte.com/docs/components/avatar"
-		>Click Here</a
+	<a
+		target="_blank"
+		href="https://www.shadcn-svelte.com/docs/components/combobox">Click Here</a
 	>
-	<Avatar />
+	<Combobox />
 </section>
 
 <section>
