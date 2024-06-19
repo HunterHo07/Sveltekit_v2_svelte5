@@ -659,8 +659,8 @@
 			<div class="shadow">T</div>
 		</div>
 		<div class="wrapper">
-			<div id="space" class="letter">&nbsp;</div>
-			<div class="shadow">&nbsp;</div>
+			<div id="space" class="letter"></div>
+			<div class="shadow"></div>
 		</div>
 		<div class="wrapper">
 			<div id="M" class="letter">M</div>
@@ -707,8 +707,8 @@
 			<div class="shadow">A</div>
 		</div>
 		<div class="wrapper">
-			<div id="space" class="letter">&nbsp;</div>
-			<div class="shadow">&nbsp;</div>
+			<div id="space" class="letter"></div>
+			<div class="shadow"></div>
 		</div>
 		<div class="wrapper">
 			<div id="T2" class="letter">T</div>
@@ -759,8 +759,8 @@
 			<div class="shadow">E</div>
 		</div>
 		<div class="wrapper">
-			<div id="space" class="letter">&nbsp;</div>
-			<div class="shadow">&nbsp;</div>
+			<div id="space" class="letter"></div>
+			<div class="shadow"></div>
 		</div>
 		<div class="wrapper">
 			<div id="P" class="letter">P</div>
@@ -899,8 +899,8 @@
 			<div class="shadow">N</div>
 		</div>
 		<div class="wrapper">
-			<div id="space" class="letter">&nbsp;</div>
-			<div class="shadow">&nbsp;</div>
+			<div id="space" class="letter"></div>
+			<div class="shadow"></div>
 		</div>
 		<div class="wrapper">
 			<div id="M" class="letter">M</div>
@@ -985,8 +985,8 @@
 			<div class="shadow">R</div>
 		</div>
 		<div class="wrapper">
-			<div id="space" class="letter">&nbsp;</div>
-			<div class="shadow">&nbsp;</div>
+			<div id="space" class="letter"></div>
+			<div class="shadow"></div>
 		</div>
 		<div class="wrapper">
 			<div id="C" class="letter">C</div>
@@ -1017,91 +1017,87 @@
 <section>
 	<div class="text">
 		<div class="wrapper">
-			<div id="A" class="letter">A</div>
-			<div class="shadow">A</div>
+			<div id="I" class="letter">I</div>
+			<div class="shadow">I</div>
 		</div>
 		<div class="wrapper">
-			<div id="V" class="letter">V</div>
-			<div class="shadow">V</div>
+			<div id="N" class="letter">N</div>
+			<div class="shadow">N</div>
 		</div>
 		<div class="wrapper">
-			<div id="A2" class="letter">A</div>
-			<div class="shadow">A</div>
+			<div id="P" class="letter">P</div>
+			<div class="shadow">P</div>
+		</div>
+		<div class="wrapper">
+			<div id="U" class="letter">U</div>
+			<div class="shadow">U</div>
 		</div>
 		<div class="wrapper">
 			<div id="T" class="letter">T</div>
 			<div class="shadow">T</div>
 		</div>
-		<div class="wrapper">
-			<div id="A3" class="letter">A</div>
-			<div class="shadow">A</div>
-		</div>
-		<div class="wrapper">
-			<div id="R" class="letter">R</div>
-			<div class="shadow">R</div>
-		</div>
 	</div>
 	<div class="overlay"></div>
-	<a target="_blank" href="https://www.shadcn-svelte.com/docs/components/avatar"
+	<a target="_blank" href="https://www.shadcn-svelte.com/docs/components/input"
 		>Click Here</a
 	>
-	<Avatar />
+	<Input />
 </section>
 
 <section>
 	<div class="text">
 		<div class="wrapper">
+			<div id="L" class="letter">L</div>
+			<div class="shadow">L</div>
+		</div>
+		<div class="wrapper">
 			<div id="A" class="letter">A</div>
 			<div class="shadow">A</div>
 		</div>
 		<div class="wrapper">
-			<div id="V" class="letter">V</div>
-			<div class="shadow">V</div>
+			<div id="B" class="letter">B</div>
+			<div class="shadow">B</div>
 		</div>
 		<div class="wrapper">
-			<div id="A2" class="letter">A</div>
-			<div class="shadow">A</div>
+			<div id="E" class="letter">E</div>
+			<div class="shadow">E</div>
 		</div>
 		<div class="wrapper">
-			<div id="T" class="letter">T</div>
-			<div class="shadow">T</div>
-		</div>
-		<div class="wrapper">
-			<div id="A3" class="letter">A</div>
-			<div class="shadow">A</div>
-		</div>
-		<div class="wrapper">
-			<div id="R" class="letter">R</div>
-			<div class="shadow">R</div>
+			<div id="L2" class="letter">L</div>
+			<div class="shadow">L</div>
 		</div>
 	</div>
 	<div class="overlay"></div>
-	<a target="_blank" href="https://www.shadcn-svelte.com/docs/components/avatar"
+	<a target="_blank" href="https://www.shadcn-svelte.com/docs/components/label"
 		>Click Here</a
 	>
-	<Avatar />
+	<Label />
 </section>
 
 <section>
 	<div class="text">
 		<div class="wrapper">
+			<div id="M" class="letter">M</div>
+			<div class="shadow">M</div>
+		</div>
+		<div class="wrapper">
+			<div id="E" class="letter">E</div>
+			<div class="shadow">E</div>
+		</div>
+		<div class="wrapper">
+			<div id="N" class="letter">N</div>
+			<div class="shadow">N</div>
+		</div>
+		<div class="wrapper">
+			<div id="U" class="letter">U</div>
+			<div class="shadow">U</div>
+		</div>
+		<div class="wrapper">
+			<div id="B" class="letter">B</div>
+			<div class="shadow">B</div>
+		</div>
+		<div class="wrapper">
 			<div id="A" class="letter">A</div>
-			<div class="shadow">A</div>
-		</div>
-		<div class="wrapper">
-			<div id="V" class="letter">V</div>
-			<div class="shadow">V</div>
-		</div>
-		<div class="wrapper">
-			<div id="A2" class="letter">A</div>
-			<div class="shadow">A</div>
-		</div>
-		<div class="wrapper">
-			<div id="T" class="letter">T</div>
-			<div class="shadow">T</div>
-		</div>
-		<div class="wrapper">
-			<div id="A3" class="letter">A</div>
 			<div class="shadow">A</div>
 		</div>
 		<div class="wrapper">
@@ -1110,21 +1106,34 @@
 		</div>
 	</div>
 	<div class="overlay"></div>
-	<a target="_blank" href="https://www.shadcn-svelte.com/docs/components/avatar"
-		>Click Here</a
+	<a
+		target="_blank"
+		href="https://www.shadcn-svelte.com/docs/components/menubar">Click Here</a
 	>
-	<Avatar />
+	<Menubar />
 </section>
 
 <section>
 	<div class="text">
 		<div class="wrapper">
+			<div id="P" class="letter">P</div>
+			<div class="shadow">P</div>
+		</div>
+		<div class="wrapper">
 			<div id="A" class="letter">A</div>
 			<div class="shadow">A</div>
 		</div>
 		<div class="wrapper">
-			<div id="V" class="letter">V</div>
-			<div class="shadow">V</div>
+			<div id="G" class="letter">G</div>
+			<div class="shadow">G</div>
+		</div>
+		<div class="wrapper">
+			<div id="I" class="letter">I</div>
+			<div class="shadow">I</div>
+		</div>
+		<div class="wrapper">
+			<div id="N" class="letter">N</div>
+			<div class="shadow">N</div>
 		</div>
 		<div class="wrapper">
 			<div id="A2" class="letter">A</div>
@@ -1135,42 +1144,52 @@
 			<div class="shadow">T</div>
 		</div>
 		<div class="wrapper">
-			<div id="A3" class="letter">A</div>
-			<div class="shadow">A</div>
+			<div id="I2" class="letter">I</div>
+			<div class="shadow">I</div>
 		</div>
 		<div class="wrapper">
-			<div id="R" class="letter">R</div>
-			<div class="shadow">R</div>
+			<div id="O" class="letter">O</div>
+			<div class="shadow">O</div>
+		</div>
+		<div class="wrapper">
+			<div id="N2" class="letter">N</div>
+			<div class="shadow">N</div>
 		</div>
 	</div>
 	<div class="overlay"></div>
-	<a target="_blank" href="https://www.shadcn-svelte.com/docs/components/avatar"
+	<a
+		target="_blank"
+		href="https://www.shadcn-svelte.com/docs/components/pagination"
 		>Click Here</a
 	>
-	<Avatar />
+	<Pagination />
 </section>
 
 <section>
 	<div class="text">
 		<div class="wrapper">
-			<div id="A" class="letter">A</div>
-			<div class="shadow">A</div>
+			<div id="P" class="letter">P</div>
+			<div class="shadow">P</div>
+		</div>
+		<div class="wrapper">
+			<div id="O" class="letter">O</div>
+			<div class="shadow">O</div>
+		</div>
+		<div class="wrapper">
+			<div id="P2" class="letter">P</div>
+			<div class="shadow">P</div>
+		</div>
+		<div class="wrapper">
+			<div id="O2" class="letter">O</div>
+			<div class="shadow">O</div>
 		</div>
 		<div class="wrapper">
 			<div id="V" class="letter">V</div>
 			<div class="shadow">V</div>
 		</div>
 		<div class="wrapper">
-			<div id="A2" class="letter">A</div>
-			<div class="shadow">A</div>
-		</div>
-		<div class="wrapper">
-			<div id="T" class="letter">T</div>
-			<div class="shadow">T</div>
-		</div>
-		<div class="wrapper">
-			<div id="A3" class="letter">A</div>
-			<div class="shadow">A</div>
+			<div id="E" class="letter">E</div>
+			<div class="shadow">E</div>
 		</div>
 		<div class="wrapper">
 			<div id="R" class="letter">R</div>
@@ -1178,157 +1197,338 @@
 		</div>
 	</div>
 	<div class="overlay"></div>
-	<a target="_blank" href="https://www.shadcn-svelte.com/docs/components/avatar"
-		>Click Here</a
+	<a
+		target="_blank"
+		href="https://www.shadcn-svelte.com/docs/components/popover">Click Here</a
 	>
-	<Avatar />
+	<Popover />
 </section>
 
 <section>
 	<div class="text">
 		<div class="wrapper">
-			<div id="A" class="letter">A</div>
-			<div class="shadow">A</div>
-		</div>
-		<div class="wrapper">
-			<div id="V" class="letter">V</div>
-			<div class="shadow">V</div>
-		</div>
-		<div class="wrapper">
-			<div id="A2" class="letter">A</div>
-			<div class="shadow">A</div>
-		</div>
-		<div class="wrapper">
-			<div id="T" class="letter">T</div>
-			<div class="shadow">T</div>
-		</div>
-		<div class="wrapper">
-			<div id="A3" class="letter">A</div>
-			<div class="shadow">A</div>
+			<div id="P" class="letter">P</div>
+			<div class="shadow">P</div>
 		</div>
 		<div class="wrapper">
 			<div id="R" class="letter">R</div>
 			<div class="shadow">R</div>
 		</div>
+		<div class="wrapper">
+			<div id="O" class="letter">O</div>
+			<div class="shadow">O</div>
+		</div>
+		<div class="wrapper">
+			<div id="G" class="letter">G</div>
+			<div class="shadow">G</div>
+		</div>
+		<div class="wrapper">
+			<div id="R2" class="letter">R</div>
+			<div class="shadow">R</div>
+		</div>
+		<div class="wrapper">
+			<div id="E" class="letter">E</div>
+			<div class="shadow">E</div>
+		</div>
+		<div class="wrapper">
+			<div id="S" class="letter">S</div>
+			<div class="shadow">S</div>
+		</div>
+		<div class="wrapper">
+			<div id="S2" class="letter">S</div>
+			<div class="shadow">S</div>
+		</div>
 	</div>
 	<div class="overlay"></div>
-	<a target="_blank" href="https://www.shadcn-svelte.com/docs/components/avatar"
-		>Click Here</a
+	<a
+		target="_blank"
+		href="https://www.shadcn-svelte.com/docs/components/progress">Click Here</a
 	>
-	<Avatar />
+	<Progress />
 </section>
 
 <section>
 	<div class="text">
 		<div class="wrapper">
+			<div id="R" class="letter">R</div>
+			<div class="shadow">R</div>
+		</div>
+		<div class="wrapper">
 			<div id="A" class="letter">A</div>
 			<div class="shadow">A</div>
 		</div>
 		<div class="wrapper">
-			<div id="V" class="letter">V</div>
-			<div class="shadow">V</div>
+			<div id="D" class="letter">D</div>
+			<div class="shadow">D</div>
 		</div>
 		<div class="wrapper">
-			<div id="A2" class="letter">A</div>
-			<div class="shadow">A</div>
+			<div id="I" class="letter">I</div>
+			<div class="shadow">I</div>
 		</div>
 		<div class="wrapper">
-			<div id="T" class="letter">T</div>
-			<div class="shadow">T</div>
+			<div id="O" class="letter">O</div>
+			<div class="shadow">O</div>
 		</div>
 		<div class="wrapper">
-			<div id="A3" class="letter">A</div>
-			<div class="shadow">A</div>
+			<div id="space" class="letter"></div>
+			<div class="shadow"></div>
 		</div>
 		<div class="wrapper">
-			<div id="R" class="letter">R</div>
+			<div id="G" class="letter">G</div>
+			<div class="shadow">G</div>
+		</div>
+		<div class="wrapper">
+			<div id="R2" class="letter">R</div>
 			<div class="shadow">R</div>
+		</div>
+		<div class="wrapper">
+			<div id="O2" class="letter">O</div>
+			<div class="shadow">O</div>
+		</div>
+		<div class="wrapper">
+			<div id="U" class="letter">U</div>
+			<div class="shadow">U</div>
+		</div>
+		<div class="wrapper">
+			<div id="P" class="letter">P</div>
+			<div class="shadow">P</div>
 		</div>
 	</div>
 	<div class="overlay"></div>
-	<a target="_blank" href="https://www.shadcn-svelte.com/docs/components/avatar"
+	<a
+		target="_blank"
+		href="https://www.shadcn-svelte.com/docs/components/radio-group"
 		>Click Here</a
 	>
-	<Avatar />
+	<RadioGroup />
 </section>
 
 <section>
 	<div class="text">
 		<div class="wrapper">
+			<div id="R" class="letter">R</div>
+			<div class="shadow">R</div>
+		</div>
+		<div class="wrapper">
 			<div id="A" class="letter">A</div>
 			<div class="shadow">A</div>
 		</div>
 		<div class="wrapper">
-			<div id="V" class="letter">V</div>
-			<div class="shadow">V</div>
+			<div id="N" class="letter">N</div>
+			<div class="shadow">N</div>
+		</div>
+		<div class="wrapper">
+			<div id="G" class="letter">G</div>
+			<div class="shadow">G</div>
+		</div>
+		<div class="wrapper">
+			<div id="E" class="letter">E</div>
+			<div class="shadow">E</div>
+		</div>
+		<div class="wrapper">
+			<div id="space" class="letter"></div>
+			<div class="shadow"></div>
+		</div>
+		<div class="wrapper">
+			<div id="C" class="letter">C</div>
+			<div class="shadow">C</div>
 		</div>
 		<div class="wrapper">
 			<div id="A2" class="letter">A</div>
 			<div class="shadow">A</div>
 		</div>
 		<div class="wrapper">
-			<div id="T" class="letter">T</div>
-			<div class="shadow">T</div>
+			<div id="L" class="letter">L</div>
+			<div class="shadow">L</div>
+		</div>
+		<div class="wrapper">
+			<div id="E2" class="letter">E</div>
+			<div class="shadow">E</div>
+		</div>
+		<div class="wrapper">
+			<div id="N2" class="letter">N</div>
+			<div class="shadow">N</div>
+		</div>
+		<div class="wrapper">
+			<div id="D2" class="letter">D</div>
+			<div class="shadow">D</div>
 		</div>
 		<div class="wrapper">
 			<div id="A3" class="letter">A</div>
 			<div class="shadow">A</div>
 		</div>
 		<div class="wrapper">
-			<div id="R" class="letter">R</div>
+			<div id="R2" class="letter">R</div>
 			<div class="shadow">R</div>
 		</div>
 	</div>
 	<div class="overlay"></div>
-	<a target="_blank" href="https://www.shadcn-svelte.com/docs/components/avatar"
+	<a
+		target="_blank"
+		href="https://www.shadcn-svelte.com/docs/components/range-calendar"
 		>Click Here</a
 	>
-	<Avatar />
+	<RangeCalendar />
 </section>
 
 <section>
 	<div class="text">
 		<div class="wrapper">
+			<div id="R" class="letter">R</div>
+			<div class="shadow">R</div>
+		</div>
+		<div class="wrapper">
+			<div id="E" class="letter">E</div>
+			<div class="shadow">E</div>
+		</div>
+		<div class="wrapper">
+			<div id="S" class="letter">S</div>
+			<div class="shadow">S</div>
+		</div>
+		<div class="wrapper">
+			<div id="I" class="letter">I</div>
+			<div class="shadow">I</div>
+		</div>
+		<div class="wrapper">
+			<div id="Z" class="letter">Z</div>
+			<div class="shadow">Z</div>
+		</div>
+		<div class="wrapper">
 			<div id="A" class="letter">A</div>
 			<div class="shadow">A</div>
 		</div>
 		<div class="wrapper">
-			<div id="V" class="letter">V</div>
-			<div class="shadow">V</div>
+			<div id="B" class="letter">B</div>
+			<div class="shadow">B</div>
 		</div>
 		<div class="wrapper">
-			<div id="A2" class="letter">A</div>
-			<div class="shadow">A</div>
+			<div id="L" class="letter">L</div>
+			<div class="shadow">L</div>
 		</div>
 		<div class="wrapper">
-			<div id="T" class="letter">T</div>
-			<div class="shadow">T</div>
-		</div>
-		<div class="wrapper">
-			<div id="A3" class="letter">A</div>
-			<div class="shadow">A</div>
-		</div>
-		<div class="wrapper">
-			<div id="R" class="letter">R</div>
-			<div class="shadow">R</div>
+			<div id="E2" class="letter">E</div>
+			<div class="shadow">E</div>
 		</div>
 	</div>
 	<div class="overlay"></div>
-	<a target="_blank" href="https://www.shadcn-svelte.com/docs/components/avatar"
-		>Click Here</a
+	<a
+		target="_blank"
+		href="https://www.shadcn-svelte.com/docs/components/resizable">Click Here</a
 	>
-	<Avatar />
+	<Resizable />
 </section>
 
 <section>
 	<div class="text">
 		<div class="wrapper">
+			<div id="S" class="letter">S</div>
+			<div class="shadow">S</div>
+		</div>
+		<div class="wrapper">
+			<div id="C" class="letter">C</div>
+			<div class="shadow">C</div>
+		</div>
+		<div class="wrapper">
+			<div id="R" class="letter">R</div>
+			<div class="shadow">R</div>
+		</div>
+		<div class="wrapper">
+			<div id="O" class="letter">O</div>
+			<div class="shadow">O</div>
+		</div>
+		<div class="wrapper">
+			<div id="L" class="letter">L</div>
+			<div class="shadow">L</div>
+		</div>
+		<div class="wrapper">
+			<div id="L2" class="letter">L</div>
+			<div class="shadow">L</div>
+		</div>
+		<div class="wrapper">
+			<div id="space" class="letter"></div>
+			<div class="shadow"></div>
+		</div>
+		<div class="wrapper">
 			<div id="A" class="letter">A</div>
 			<div class="shadow">A</div>
 		</div>
 		<div class="wrapper">
-			<div id="V" class="letter">V</div>
-			<div class="shadow">V</div>
+			<div id="R2" class="letter">R</div>
+			<div class="shadow">R</div>
+		</div>
+		<div class="wrapper">
+			<div id="E" class="letter">E</div>
+			<div class="shadow">E</div>
+		</div>
+		<div class="wrapper">
+			<div id="A2" class="letter">A</div>
+			<div class="shadow">A</div>
+		</div>
+	</div>
+	<div class="overlay"></div>
+	<a
+		target="_blank"
+		href="https://www.shadcn-svelte.com/docs/components/scroll-area"
+		>Click Here</a
+	>
+	<ScrollArea />
+</section>
+
+<section>
+	<div class="text">
+		<div class="wrapper">
+			<div id="S" class="letter">S</div>
+			<div class="shadow">S</div>
+		</div>
+		<div class="wrapper">
+			<div id="E" class="letter">E</div>
+			<div class="shadow">E</div>
+		</div>
+		<div class="wrapper">
+			<div id="L" class="letter">L</div>
+			<div class="shadow">L</div>
+		</div>
+		<div class="wrapper">
+			<div id="E2" class="letter">E</div>
+			<div class="shadow">E</div>
+		</div>
+		<div class="wrapper">
+			<div id="C" class="letter">C</div>
+			<div class="shadow">C</div>
+		</div>
+		<div class="wrapper">
+			<div id="T" class="letter">T</div>
+			<div class="shadow">T</div>
+		</div>
+	</div>
+	<div class="overlay"></div>
+	<a target="_blank" href="https://www.shadcn-svelte.com/docs/components/select"
+		>Click Here</a
+	>
+	<Select />
+</section>
+
+<section>
+	<div class="text">
+		<div class="wrapper">
+			<div id="S" class="letter">S</div>
+			<div class="shadow">S</div>
+		</div>
+		<div class="wrapper">
+			<div id="E" class="letter">E</div>
+			<div class="shadow">E</div>
+		</div>
+		<div class="wrapper">
+			<div id="P" class="letter">P</div>
+			<div class="shadow">P</div>
+		</div>
+		<div class="wrapper">
+			<div id="A" class="letter">A</div>
+			<div class="shadow">A</div>
+		</div>
+		<div class="wrapper">
+			<div id="R" class="letter">R</div>
+			<div class="shadow">R</div>
 		</div>
 		<div class="wrapper">
 			<div id="A2" class="letter">A</div>
@@ -1339,8 +1539,116 @@
 			<div class="shadow">T</div>
 		</div>
 		<div class="wrapper">
-			<div id="A3" class="letter">A</div>
-			<div class="shadow">A</div>
+			<div id="O" class="letter">O</div>
+			<div class="shadow">O</div>
+		</div>
+		<div class="wrapper">
+			<div id="R2" class="letter">R</div>
+			<div class="shadow">R</div>
+		</div>
+	</div>
+	<div class="overlay"></div>
+	<a
+		target="_blank"
+		href="https://www.shadcn-svelte.com/docs/components/separator">Click Here</a
+	>
+	<Separator />
+</section>
+
+<section>
+	<div class="text">
+		<div class="wrapper">
+			<div id="S" class="letter">S</div>
+			<div class="shadow">S</div>
+		</div>
+		<div class="wrapper">
+			<div id="H" class="letter">H</div>
+			<div class="shadow">H</div>
+		</div>
+		<div class="wrapper">
+			<div id="E" class="letter">E</div>
+			<div class="shadow">E</div>
+		</div>
+		<div class="wrapper">
+			<div id="E2" class="letter">E</div>
+			<div class="shadow">E</div>
+		</div>
+		<div class="wrapper">
+			<div id="T" class="letter">T</div>
+			<div class="shadow">T</div>
+		</div>
+	</div>
+	<div class="overlay"></div>
+	<a target="_blank" href="https://www.shadcn-svelte.com/docs/components/sheet"
+		>Click Here</a
+	>
+	<Sheet />
+</section>
+
+<section>
+	<div class="text">
+		<div class="wrapper">
+			<div id="S" class="letter">S</div>
+			<div class="shadow">S</div>
+		</div>
+		<div class="wrapper">
+			<div id="K" class="letter">K</div>
+			<div class="shadow">K</div>
+		</div>
+		<div class="wrapper">
+			<div id="E" class="letter">E</div>
+			<div class="shadow">E</div>
+		</div>
+		<div class="wrapper">
+			<div id="L" class="letter">L</div>
+			<div class="shadow">L</div>
+		</div>
+		<div class="wrapper">
+			<div id="E2" class="letter">E</div>
+			<div class="shadow">E</div>
+		</div>
+		<div class="wrapper">
+			<div id="T" class="letter">T</div>
+			<div class="shadow">T</div>
+		</div>
+		<div class="wrapper">
+			<div id="O" class="letter">O</div>
+			<div class="shadow">O</div>
+		</div>
+		<div class="wrapper">
+			<div id="N" class="letter">N</div>
+			<div class="shadow">N</div>
+		</div>
+	</div>
+	<div class="overlay"></div>
+	<a
+		target="_blank"
+		href="https://www.shadcn-svelte.com/docs/components/skeleton">Click Here</a
+	>
+	<Skeleton />
+</section>
+
+<section>
+	<div class="text">
+		<div class="wrapper">
+			<div id="S" class="letter">S</div>
+			<div class="shadow">S</div>
+		</div>
+		<div class="wrapper">
+			<div id="L" class="letter">L</div>
+			<div class="shadow">L</div>
+		</div>
+		<div class="wrapper">
+			<div id="I" class="letter">I</div>
+			<div class="shadow">I</div>
+		</div>
+		<div class="wrapper">
+			<div id="D" class="letter">D</div>
+			<div class="shadow">D</div>
+		</div>
+		<div class="wrapper">
+			<div id="E" class="letter">E</div>
+			<div class="shadow">E</div>
 		</div>
 		<div class="wrapper">
 			<div id="R" class="letter">R</div>
@@ -1348,10 +1656,276 @@
 		</div>
 	</div>
 	<div class="overlay"></div>
-	<a target="_blank" href="https://www.shadcn-svelte.com/docs/components/avatar"
+	<a target="_blank" href="https://www.shadcn-svelte.com/docs/components/slider"
 		>Click Here</a
 	>
-	<Avatar />
+	<Slider />
+</section>
+
+<section>
+	<div class="text">
+		<div class="wrapper">
+			<div id="S" class="letter">S</div>
+			<div class="shadow">S</div>
+		</div>
+		<div class="wrapper">
+			<div id="O" class="letter">O</div>
+			<div class="shadow">O</div>
+		</div>
+		<div class="wrapper">
+			<div id="N" class="letter">N</div>
+			<div class="shadow">N</div>
+		</div>
+		<div class="wrapper">
+			<div id="N2" class="letter">N</div>
+			<div class="shadow">N</div>
+		</div>
+		<div class="wrapper">
+			<div id="E" class="letter">E</div>
+			<div class="shadow">E</div>
+		</div>
+		<div class="wrapper">
+			<div id="R" class="letter">R</div>
+			<div class="shadow">R</div>
+		</div>
+	</div>
+	<div class="overlay"></div>
+	<a target="_blank" href="https://www.shadcn-svelte.com/docs/components/sonner"
+		>Click Here</a
+	>
+	<Sonner />
+</section>
+
+<section>
+	<div class="text">
+		<div class="wrapper">
+			<div id="T" class="letter">T</div>
+			<div class="shadow">T</div>
+		</div>
+		<div class="wrapper">
+			<div id="A" class="letter">A</div>
+			<div class="shadow">A</div>
+		</div>
+		<div class="wrapper">
+			<div id="B" class="letter">B</div>
+			<div class="shadow">B</div>
+		</div>
+		<div class="wrapper">
+			<div id="L" class="letter">L</div>
+			<div class="shadow">L</div>
+		</div>
+		<div class="wrapper">
+			<div id="E" class="letter">E</div>
+			<div class="shadow">E</div>
+		</div>
+	</div>
+	<div class="overlay"></div>
+	<a target="_blank" href="https://www.shadcn-svelte.com/docs/components/table"
+		>Click Here</a
+	>
+	<Table />
+</section>
+
+<section>
+	<div class="text">
+		<div class="wrapper">
+			<div id="T" class="letter">T</div>
+			<div class="shadow">T</div>
+		</div>
+		<div class="wrapper">
+			<div id="A" class="letter">A</div>
+			<div class="shadow">A</div>
+		</div>
+		<div class="wrapper">
+			<div id="B" class="letter">B</div>
+			<div class="shadow">B</div>
+		</div>
+		<div class="wrapper">
+			<div id="S" class="letter">S</div>
+			<div class="shadow">S</div>
+		</div>
+	</div>
+	<div class="overlay"></div>
+	<a target="_blank" href="https://www.shadcn-svelte.com/docs/components/tabs"
+		>Click Here</a
+	>
+	<Tabs />
+</section>
+
+<section>
+	<div class="text">
+		<div class="wrapper">
+			<div id="T" class="letter">T</div>
+			<div class="shadow">T</div>
+		</div>
+		<div class="wrapper">
+			<div id="E" class="letter">E</div>
+			<div class="shadow">E</div>
+		</div>
+		<div class="wrapper">
+			<div id="X" class="letter">X</div>
+			<div class="shadow">X</div>
+		</div>
+		<div class="wrapper">
+			<div id="T2" class="letter">T</div>
+			<div class="shadow">T</div>
+		</div>
+		<div class="wrapper">
+			<div id="A" class="letter">A</div>
+			<div class="shadow">A</div>
+		</div>
+		<div class="wrapper">
+			<div id="R" class="letter">R</div>
+			<div class="shadow">R</div>
+		</div>
+		<div class="wrapper">
+			<div id="E2" class="letter">E</div>
+			<div class="shadow">E</div>
+		</div>
+		<div class="wrapper">
+			<div id="A2" class="letter">A</div>
+			<div class="shadow">A</div>
+		</div>
+	</div>
+	<div class="overlay"></div>
+	<a
+		target="_blank"
+		href="https://www.shadcn-svelte.com/docs/components/textarea">Click Here</a
+	>
+	<Textarea />
+</section>
+
+<section>
+	<div class="text">
+		<div class="wrapper">
+			<div id="T" class="letter">T</div>
+			<div class="shadow">T</div>
+		</div>
+		<div class="wrapper">
+			<div id="O" class="letter">O</div>
+			<div class="shadow">O</div>
+		</div>
+		<div class="wrapper">
+			<div id="G" class="letter">G</div>
+			<div class="shadow">G</div>
+		</div>
+		<div class="wrapper">
+			<div id="G2" class="letter">G</div>
+			<div class="shadow">G</div>
+		</div>
+		<div class="wrapper">
+			<div id="L" class="letter">L</div>
+			<div class="shadow">L</div>
+		</div>
+		<div class="wrapper">
+			<div id="E" class="letter">E</div>
+			<div class="shadow">E</div>
+		</div>
+	</div>
+	<div class="overlay"></div>
+	<a target="_blank" href="https://www.shadcn-svelte.com/docs/components/toggle"
+		>Click Here</a
+	>
+	<Toggle />
+</section>
+
+<section>
+	<div class="text">
+		<div class="wrapper">
+			<div id="T" class="letter">T</div>
+			<div class="shadow">T</div>
+		</div>
+		<div class="wrapper">
+			<div id="O" class="letter">O</div>
+			<div class="shadow">O</div>
+		</div>
+		<div class="wrapper">
+			<div id="G" class="letter">G</div>
+			<div class="shadow">G</div>
+		</div>
+		<div class="wrapper">
+			<div id="G2" class="letter">G</div>
+			<div class="shadow">G</div>
+		</div>
+		<div class="wrapper">
+			<div id="L" class="letter">L</div>
+			<div class="shadow">L</div>
+		</div>
+		<div class="wrapper">
+			<div id="E" class="letter">E</div>
+			<div class="shadow">E</div>
+		</div>
+		<div class="wrapper">
+			<div id="space" class="letter"></div>
+			<div class="shadow"></div>
+		</div>
+		<div class="wrapper">
+			<div id="G3" class="letter">G</div>
+			<div class="shadow">G</div>
+		</div>
+		<div class="wrapper">
+			<div id="R" class="letter">R</div>
+			<div class="shadow">R</div>
+		</div>
+		<div class="wrapper">
+			<div id="O2" class="letter">O</div>
+			<div class="shadow">O</div>
+		</div>
+		<div class="wrapper">
+			<div id="U" class="letter">U</div>
+			<div class="shadow">U</div>
+		</div>
+		<div class="wrapper">
+			<div id="P" class="letter">P</div>
+			<div class="shadow">P</div>
+		</div>
+	</div>
+	<div class="overlay"></div>
+	<a
+		target="_blank"
+		href="https://www.shadcn-svelte.com/docs/components/toggle-group"
+		>Click Here</a
+	>
+	<ToggleGroup />
+</section>
+
+<section>
+	<div class="text">
+		<div class="wrapper">
+			<div id="T" class="letter">T</div>
+			<div class="shadow">T</div>
+		</div>
+		<div class="wrapper">
+			<div id="O" class="letter">O</div>
+			<div class="shadow">O</div>
+		</div>
+		<div class="wrapper">
+			<div id="O2" class="letter">O</div>
+			<div class="shadow">O</div>
+		</div>
+		<div class="wrapper">
+			<div id="L" class="letter">L</div>
+			<div class="shadow">L</div>
+		</div>
+		<div class="wrapper">
+			<div id="T2" class="letter">T</div>
+			<div class="shadow">T</div>
+		</div>
+		<div class="wrapper">
+			<div id="I" class="letter">I</div>
+			<div class="shadow">I</div>
+		</div>
+		<div class="wrapper">
+			<div id="P" class="letter">P</div>
+			<div class="shadow">P</div>
+		</div>
+	</div>
+	<div class="overlay"></div>
+	<a
+		target="_blank"
+		href="https://www.shadcn-svelte.com/docs/components/tooltip">Click Here</a
+	>
+	<Tooltip />
 </section>
 
 <style>
