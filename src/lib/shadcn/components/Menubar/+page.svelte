@@ -1,5 +1,5 @@
 <script lang="ts">
-	import * as Menubar from '$lib/components/ui/menubar/index.js';
+	import * as Menubar from '$lib/shadcn/ui/menubar/index.js';
 
 	let bookmarks = false;
 	let fullUrls = true;

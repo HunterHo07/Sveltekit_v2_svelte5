@@ -49,7 +49,7 @@
 <header>
 	<h1>Shadcn-Svelte Components</h1>
 </header>
-<Separator />
+<!-- <Separator /> -->
 
 <section>
 	<h2>Official Docs</h2>

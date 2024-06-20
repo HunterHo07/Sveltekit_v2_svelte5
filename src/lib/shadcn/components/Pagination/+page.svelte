@@ -1,14 +1,11 @@
 <script lang="ts">
 	import ChevronLeft from 'svelte-radix/ChevronLeft.svelte';
 	import ChevronRight from 'svelte-radix/ChevronRight.svelte';
-	import { mediaQuery } from 'svelte-legos';
 	import * as Pagination from '$lib/shadcn/ui/pagination/index.js';
 
-	const isDesktop = mediaQuery('(min-width: 768px)');
-
 	let count = 20;
-	$: perPage = $isDesktop ? 3 : 8;
-	$: siblingCount = $isDesktop ? 1 : 0;
+	$: perPage = 3;
+	$: siblingCount = 1;
 </script>
 
 <Pagination.Root {count} {perPage} {siblingCount} let:pages let:currentPage>
