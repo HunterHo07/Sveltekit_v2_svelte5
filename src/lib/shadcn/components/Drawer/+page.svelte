@@ -1,7 +1,6 @@
 <script lang="ts">
 	import Minus from 'svelte-radix/Minus.svelte';
 	import Plus from 'svelte-radix/Plus.svelte';
-	import { VisGroupedBar, VisXYContainer } from '@unovis/svelte';
 	import { Button } from '$lib/shadcn/ui/button/index.js';
 	import * as Drawer from '$lib/shadcn/ui/drawer/index.js';
 
@@ -110,9 +109,9 @@
 					</Button>
 				</div>
 				<div class="mt-3 h-[120px]">
-					<VisXYContainer {data} height={60}>
+					<!-- <VisXYContainer {data} height={60}>
 						<VisGroupedBar {x} {y} color="hsl(var(--primary) / 0.2)" />
-					</VisXYContainer>
+					</VisXYContainer> -->
 				</div>
 			</div>
 			<Drawer.Footer>
