@@ -5,8 +5,8 @@
 		"dev": "vite dev",
 		"build": "vite build",
 		"preview": "vite preview",
-		"start": "npm run dev -- --host",
-		"test": "npm run test:integration && npm run test:unit",
+		"start": "pnpm dev -- --host",
+		"test": "pnpm test:integration && pnpm test:unit",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
 		"lint": "prettier --ignore-path .gitignore --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
@@ -89,5 +89,6 @@
 			"plugin:storybook/recommended"
 		]
 	},
-	"_comment": "Keeping this for reference: '@sveltejs/vite-plugin-svelte': '^4.0.0-next.3'"
+	"_comment": "Keeping this for reference: '@sveltejs/vite-plugin-svelte': '^4.0.0-next.3'",
+	"packageManager": "pnpm@11.4.0"
 }
